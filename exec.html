@@ -1,0 +1,68 @@
+<html> 
+  <head>
+    <title>Durham University Badminton Club</title> 
+    <link href="resources/css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script id="templateHB" type="text/x-handlebars-template">
+      {{#each execMembers}}
+        <article class="exec">
+              <img class="execImage" src="{{this.image}}" alt="{{this.name}}">
+              <section class="details">
+                <h2 class="name">{{this.name}}</h2>
+                <p class="role">Role: {{this.role}}</p>
+                <p class="course">Course: {{this.course}}</p>
+                <p class="year">Year: {{this.year}}</p>
+             
+              </section>
+          </article>
+          {{/each}}
+      </script>
+  </head>
+
+  <body> 
+    <header>
+        <section>
+          <img class="logo" src="resources/css/Photos/Badminton Photos/DUBADC logo.png"/>
+       <nav>
+          <ul class="navbar">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li class="current">
+              <a href="exec.html">Meet The Exec</a>
+            </li>
+            <li>
+                <a href="join.html">Join Us</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        </section>
+        </header>
+        <h1>Meet The Exec!</h1>
+
+        <article id="showcase">
+          <section id="information" class="container">
+            
+          </section>
+        </article>
+        
+      <footer>
+          <p>DurhamUniversityBadmintonClub</p>
+      </footer>
+  
+       
+        <script src="public/main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+

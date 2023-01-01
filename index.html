@@ -1,0 +1,105 @@
+<html> 
+  <head>
+    <title>Durham University Badminton Club</title> 
+    <link href="resources/css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&display=swap');
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+      </style>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+  </head>
+
+  <body> 
+    <header>
+        <section>
+          <img class="logo" src="resources/css/Photos/Badminton Photos/DUBADC logo.png"/>
+       <nav>
+          <ul class="navbar">
+            <li class="current">
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="exec.html">Meet The Exec</a>
+            </li>
+            <li>
+                <a href="join.html">Join Us</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        </section>
+    </header>
+    
+    <h1>Durham University Badminton Club</h1> 
+    <p class="intro">Welcome to DU Badminton! Get more information on our club here! <br>
+    We are a University badminton club with three mens teams and three womens teams in BUCS leagues.</p>
+
+
+    <section class="photoAlbum">
+      <div class="container1">
+                <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="resources/css/Photos/Badminton Photos/IMG_1653.JPG"></div>
+            <div class="swiper-slide"><img src="resources/css/Photos/Badminton Photos/IMG_1654.JPG"></div>
+            <div class="swiper-slide"><img src="resources/css/Photos/Badminton Photos/m1.JPG"></div>
+            <div class="swiper-slide"><img src="resources/css/Photos/Badminton Photos/m3.JPG"></div>
+            <div class="swiper-slide"><img src="resources/css/Photos/Badminton Photos/columba.jpg"></div>
+            <div class="swiper-slide"><img src="resources/css/Photos/Badminton Photos/w12.jpeg"></div>
+            <div class="swiper-slide"><img src="resources/css/Photos/Badminton Photos/hochiEmily.JPG"></div>
+            <div class="swiper-slide"><img src="resources/css/Photos/Badminton Photos/columbaJoe.JPG"></div>
+           
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+        </div>
+      </div>
+    </section>
+    <footer>
+        <p>DurhamUniversityBadmintonClub</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+    </script>
+    <script src="public/main.js"></script>
+  </body>
+</html>
