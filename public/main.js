@@ -2,7 +2,7 @@ const context = {
     title: 'Exec Committee',
     execMembers: [
         {
-            image: 'resources/css/Photos/Badminton Photos/Exec/Rachel.JPG',
+            image: 'resources/css/Photos/Badminton Photos/Exec/squareRachel.jpg',
             name: 'Rachel Tsang',
             role: "President",
             course: 'Maths',
