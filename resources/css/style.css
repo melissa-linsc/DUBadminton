@@ -22,6 +22,8 @@ footer {
   header {
     margin-right: 5%;
     min-height: 80px;
+    width: 100%;
+    height: auto;
   }
 
   .intro {
@@ -36,6 +38,8 @@ footer {
 
 nav {
     float: right;
+    max-width: 50%;
+
   }
   
   .navbar {
@@ -45,6 +49,7 @@ nav {
   .navbar li {
     display: inline-block;
     padding: 0 5px;
+
   }
   
   .navbar li a {
@@ -59,9 +64,10 @@ nav {
   h1 {
     font-family: 'Playfair Display', serif;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 10%;
     letter-spacing: 1px;
     color: rgba(255,255,255,1);
+  
   }
 
   h2 {
@@ -160,12 +166,13 @@ nav {
 }
 
 .logo {
-
   position: absolute;
   top: 0;
   left: 0;
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  max-height: 150px;
   padding: 1% 1%;
 }
 
