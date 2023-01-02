@@ -144,12 +144,13 @@ nav {
 
 .execImage {
   float: left;
-  width: 100%;
+  width: 25vh;
+  height: 25vh;
   max-width: 200px;
   max-height: 200px;
   object-fit: cover;
   margin: 0 auto;
-  height: auto;
+
 }
 
 .details {
