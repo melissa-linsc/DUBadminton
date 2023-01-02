@@ -133,31 +133,34 @@ nav {
 
 .exec {
   display: inline-block;
-  width: 60vh;
+  width: 40vh;
   height: auto;
   background-color: rgba(255,255,255,0.7);
-  padding: 2% 5%;
-  margin: 3% 0;
+  padding: 5%;
+  margin: 3% 4%;
   border-radius: 5px;
 
 }
 
 .execImage {
-  float: left;
-  width: 25vh;
-  height: 25vh;
-  max-width: 200px;
-  max-height: 200px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30vh;
+  height: 30vh;
+  max-width: 250px;
+  max-height: 250px;
   object-fit: cover;
   margin: 0 auto;
 
 }
 
 .details {
+  display: inline-block;
+  vertical-align: middle;
   font-size: 2.5vh;
   text-align: center;
   width: 100%;
-  margin: 0 5% ;
+  margin: 0% ;
   padding: 0% ;
 }
 
